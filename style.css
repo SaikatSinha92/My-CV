@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: blanchedalmond;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: rgb(235, 77, 37);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+}
+
+.ProfileImage {
+  width: 120px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+.headingBio {
+  float: left;
+  padding: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+.contactBio {
+  float: right;
+  padding: 25px;
+}
+
+.contactBio a {
+  text-decoration: none;
+  color: #E4D00A;
+  font-weight: bold;
+}
+
+.contactBio a:hover {
+  text-decoration: underline 3px;
+  color: white;
+}
+
+.divClr {
+  clear: both;
+}
+
+hr {
+  border: solid black 7px;
+  margin: 20px auto;
+  border-bottom: none;
+}
+
+/* ---------------
+personal section start
+--------------------- */
+
+#personalSection{
+
+}
+
+
+.content{
+  
+}
+
+.personalInfoPseudo::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.leftDiv{
+    width: 30%;
+    float: left;
+}
+
+.rightdiv{
+    width: 70%;
+    float: left;
+}
+
+/* ---------------
+personal section finish
+--------------------- */
+
+.commonHR{
+border: solid rgb(251, 255, 0) 3px;
+margin: 20px auto;
+border-bottom: none;
+}
+
+
+/* ---------------
+Education section finish
+--------------------- */
+.eduTempLeft{
+  width: 25%;
+  float: left;
+}
+
+.eduTempMid{
+  width: 30%;
+  float: left;
+  padding-left: 70px;
+}
+
+.eduTempRight{
+  width: 30%;
+  float: right;
+}
+
+/* ---------------
+Education  section finish
+--------------------- */
+
+/* ---------------
+Footer section finish
+--------------------- */
+.bottomContainer{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.bottomContainer a{
+  color: white;
+  margin: 50px;
+  text-decoration: none;
+}
+
+.bottomContainer a:hover{
+  color: #E4D00A;
+  text-decoration: underline;
+}
+
+.bottomContainer p{
+  color: white;
+  margin-top: 20px;
+  
+}
+
+/* ---------------
+Footer section finish
+--------------------- */
